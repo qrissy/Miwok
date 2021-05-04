@@ -35,7 +35,7 @@ public class ColorsActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list);
 
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Word} in the list
+        // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
     }
 }
