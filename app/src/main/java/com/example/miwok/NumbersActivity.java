@@ -111,10 +111,7 @@ public class NumbersActivity extends AppCompatActivity {
 
                 // Request audio focus for playback
                 int result = mAudioManager.requestAudioFocus(mOnAudioFocusChangeListener,
-                        // Use the music stream
-                           AudioManager.STREAM_MUSIC,
-                        // Request permanent focus.
-                           AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
+                           AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
 
                 if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
                     // We have audio focus now.
