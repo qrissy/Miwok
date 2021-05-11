@@ -53,6 +53,7 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="16dp"
             android:src="@drawable/ic_play_arrow" />
+
     </RelativeLayout>
 
 </RelativeLayout>
